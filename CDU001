@@ -9,7 +9,6 @@
 | Outros atores | Estacionamento |
 | Evento disparador | Leitura do código na entrada do estacionamento |
 | Fluxo normal | Motorista chega na entrada no estacionamento e apresenta código no leitor da cancela. <br> Passo 1: Leitura do código no sensor da cancela <br> Ação: Sistema verifica se código está com status “livre”.  <br> Passo 2: Sistema libera entrada e abre a cancela <br> Ação: Sistema troca status do código para “em uso”.  <br> Passo 3: Motorista é notificado que o seu estacionamento está liberado: <br> Ação: O sistema notifica que a entrada ao estacionamento foi liberada.|
-| Fluxos alternativos e de exceção | Motorista chega na entrada no estacionamento e apresenta código no leitor da cancela. <br> Passo 1: Leitura do código no sensor da cancela <br> Ação: Sistema verifica se código está com status “livre”. <br> Passo 2: O sistema não libera entrada ao estacionamento. <br> Ação: Sistema informa ao usuário que ele não pode entrar no estacionamento pôs seu código está em uso no estacionamento X
- | 
+| Fluxos alternativos e de exceção | Motorista chega na entrada no estacionamento e apresenta código no leitor da cancela. <br> Passo 1: Leitura do código no sensor da cancela <br> Ação: Sistema verifica se código está com status “livre”. <br> Passo 2: O sistema não libera entrada ao estacionamento. <br> Ação: Sistema informa ao usuário que ele não pode entrar no estacionamento pôs seu código está em uso no estacionamento X |
 
 
