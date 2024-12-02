@@ -42,21 +42,21 @@ A plataforma visa trazer uma economia e previsilidade de gastos para os assinant
 
 ## 7. Requisitos funcionais
 
-| Código              |  Nome               |          Descrição  |  Prioridade         |
-| -----------------   | -----------------   | -----------------   | -----------------   |
-|  F01  |  Login  |  O usuário tem acesso ao sistema.  | -  |
-| F02  | Cadastro de Ações | O Colaborador cadastra uma ação de trabalho voluntário  |  - |
-| F03  | Cadastro de colaboradores | Visitante pode se cadastrar na plataforma | - |
-| F04  | Gerenciamento de Ações | Administrador gerencia ações disponíveis e responsável gerencia a própria ação (atualizar e remover) | - | 
-| F05  | Gerenciamento de Colaboradores | Administrador gerencia usuários da plataforma (atualizar e remover) | - |
-| F06  | Busca de Ações | usuários pesquisam ações disponíveis | Alta | 
-| F09  | Visualização de Ações | usuários podem visualizar ações disponíveis | Alta | 
-| F10  | Avaliação de Ações | Permite que Colaboradores que participaram avaliem (com critérios a definir como resultados obtidos, pontualidade, efetividade, etc) a ação ocorrida | Média |
-| F11  | Denuncia de Ações | usuário alerta os admins sobre questões de segurança da ação elencadas na RN06 | - |
-| F12  | Denuncia de Usuário | usuário alerta os administradores sobre questões de segurança elencadas na RN07 | - |
-| F13  | Autorização de colaborador em ação | Responsável da ação aceita os Colaboradores que solicitaram participar da ação | Alta |
-| F14  | Cadastro do Voluntário em uma ação | Colaborador solicita aos responsáveis de uma ação para participar da mesma | Alta |
-| F15  | Logout | usuário sai do sistema | - |
+| Código              |  Nome               |          Descrição  |  
+| -----------------   | -----------------   | -----------------   | 
+|  F01  |  Login  |  O usuário tem acesso ao sistema.  | 
+| F02  | Cadastro de Ações | O Colaborador cadastra uma ação de trabalho voluntário  | 
+| F03  | Cadastro de colaboradores | Visitante pode se cadastrar na plataforma | 
+| F04  | Gerenciamento de Ações | Administrador gerencia ações disponíveis e responsável gerencia a própria ação (atualizar e remover) |
+| F05  | Gerenciamento de Colaboradores | Administrador gerencia usuários da plataforma (atualizar e remover) |
+| F06  | Busca de Ações | usuários pesquisam ações disponíveis | 
+| F09  | Visualização de Ações | usuários podem visualizar ações disponíveis |  
+| F10  | Avaliação de Ações | Permite que Colaboradores que participaram avaliem (com critérios a definir como resultados obtidos, pontualidade, efetividade, etc) a ação ocorrida |
+| F11  | Denuncia de Ações | usuário alerta os admins sobre questões de segurança da ação elencadas na RN06 | 
+| F12  | Denuncia de Usuário | usuário alerta os administradores sobre questões de segurança elencadas na RN07 | 
+| F13  | Autorização de colaborador em ação | Responsável da ação aceita os Colaboradores que solicitaram participar da ação | 
+| F14  | Cadastro do Voluntário em uma ação | Colaborador solicita aos responsáveis de uma ação para participar da mesma | 
+| F15  | Logout | usuário sai do sistema | 
 
 
 
