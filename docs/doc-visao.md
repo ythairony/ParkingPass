@@ -45,18 +45,15 @@ A plataforma visa trazer uma economia e previsilidade de gastos para os assinant
 | Código              |  Nome               |          Descrição  |  
 | -----------------   | -----------------   | -----------------   | 
 |  F01  |  Login  |  O usuário tem acesso ao sistema.  | 
-| F02  | Cadastro de Ações | O Colaborador cadastra uma ação de trabalho voluntário  | 
-| F03  | Cadastro de colaboradores | Visitante pode se cadastrar na plataforma | 
-| F04  | Gerenciamento de Ações | Administrador gerencia ações disponíveis e responsável gerencia a própria ação (atualizar e remover) |
-| F05  | Gerenciamento de Colaboradores | Administrador gerencia usuários da plataforma (atualizar e remover) |
-| F06  | Busca de Ações | usuários pesquisam ações disponíveis | 
-| F09  | Visualização de Ações | usuários podem visualizar ações disponíveis |  
-| F10  | Avaliação de Ações | Permite que Colaboradores que participaram avaliem (com critérios a definir como resultados obtidos, pontualidade, efetividade, etc) a ação ocorrida |
-| F11  | Denuncia de Ações | usuário alerta os admins sobre questões de segurança da ação elencadas na RN06 | 
-| F12  | Denuncia de Usuário | usuário alerta os administradores sobre questões de segurança elencadas na RN07 | 
-| F13  | Autorização de colaborador em ação | Responsável da ação aceita os Colaboradores que solicitaram participar da ação | 
-| F14  | Cadastro do Voluntário em uma ação | Colaborador solicita aos responsáveis de uma ação para participar da mesma | 
-| F15  | Logout | usuário sai do sistema | 
+| F02  | Cadastrar veículo | Motorista cadastra veículo que deseja fazer plano  | 
+| F03  | Assinar plano | Motorista assina plano recorrente de assinatura | 
+| F04  | Liberar entrada | Motorista escanea seu código na entrada do estacionamento parceiro via QR Code |
+| F05  | Liberar saída | Motorista escanea seu código para liberar a saída |
+| F06  | Descadastrar veículo | Motorista remove carro cadastrado | 
+| F09  | Cancelar plano | Motorista cancela plano de assinatura e não será mais cobrado |  
+| F10  | Reportar problema | Motorista pode reportar algum problema no aplicativo |
+| F11  | Contagem de uso | Administrador consegue ver cantos carros estão usando o estacionamento no momento e quantos já usaram no período filtrado | 
+| F12  | Logout | usuário sai do sistema | 
 
 
 
@@ -75,9 +72,5 @@ A plataforma visa trazer uma economia e previsilidade de gastos para os assinant
 
 | Código | Nome | Descrição |
 | ------------- | ------------- | ------------- |
-| RN01 | Limitação de cadastro de ações | Um Colaborador não pode criar mais de três ações |
-| RN02 | Acesso a ações | Em ações "fechadas" (não-públicas), um voluntário precisa ter seu acesso permitido pelo responsável da ação para ver informações sensíveis sobre ela. |
-| RN03 | Requisito para avaliar ação | Um voluntário só pode avaliar uma ação em que participou. |
-| RN04 | Impedimento de spamming por denúncia | Um usuário não pode fazer mais de 3 denúncias ao mesmo usuário/evento na mesma semana.
-| RN05 | Critérios de denúncia do ação | Inverdade da proposta da ação,  entre outros. | 
-| RN06 | Critérios de denúncia do usuário | Discurso de ódio, comportamento suspeito, entre outros. | 
+| RN01 | Limitação do uso | Motorista não pode está em mais de um estacionamento ao mesmo tempo |
+| RN02 | Mutiplicidade de carros | Caso o cliente tenha mais de um carro e apenas uma assinatura, o segundo carro fica impedido de entrar em estacionamento enquanto o outro esteja usado |
